@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for guide.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/upgrade-guide/v0.2.0-rc.2/clean-local-profiles/guide.md
+/:
+  en: cb3f91d54eee30e5
+  zh: cb3f91d54eee30e5
+/kind-upgrade-guide-description-the-cleaned-distribution-uses-a-direct-local-model-endpoint-and-rejects-incomplete-windows-worker-deployments-at-startup:
+  en: 86ce7c8ad3cc2aaa
+  zh: 7ccf8aed07d25937
+/clean-local-profiles:
+  en: cd21d678e6d9c65a
+  zh: 47d41ac099af83e7
+/clean-local-profiles/change:
+  en: 58b4a788ce44e1d1
+  zh: b5c66b48528c6a40
+/clean-local-profiles/migration:
+  en: 27f0d95491f80c83
+  zh: 19b27818fa961501

@@ -1,0 +1,42 @@
+{
+  "dateLocal": "2026-10-16",
+  "passed": true,
+  "assets": [
+    {
+      "verified": true,
+      "SHA256": "59992ef61e6e8afcae7a6eceb9767929a2f8de1d187629c3508baca652765ab6",
+      "name": "Runtime",
+      "bytes": 170427577
+    },
+    {
+      "verified": true,
+      "SHA256": "1a987d72a44b9535a489f52511eb5f7696653cc731ed76b3fa74ab7bcc412156",
+      "name": "Kit",
+      "bytes": 32848
+    },
+    {
+      "verified": true,
+      "SHA256": "d97953e39fd5f8de20fae9ad44e2db1c9bf70b4e649bf4407070b2a50a9434ef",
+      "name": "Ollama",
+      "bytes": 68105409
+    },
+    {
+      "verified": true,
+      "SHA256": "01e0b2ebe5ea05eb725802ef1338b3ab70dc55f170c3fd7c2a8e2e52573f6172",
+      "name": "Models",
+      "bytes": 522655967
+    },
+    {
+      "verified": true,
+      "SHA256": "ba4e6d110e8c1592a1ecd390f6b05f3da124b13871a5be62b341a07a853c6c32",
+      "name": "Node",
+      "bytes": 93580104
+    },
+    {
+      "verified": true,
+      "SHA256": "02fe458be20493fbdf43f61ea20610b811ee6c738ab1676c61b9cfcd1a33c860",
+      "name": "PowerShell",
+      "bytes": 106328873
+    }
+  ]
+}

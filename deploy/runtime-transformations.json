@@ -1,0 +1,842 @@
+{
+  "changes": [
+    {
+      "path": "package.json",
+      "action": "use-portable-source-dependency-metadata",
+      "beforeSHA256": "6cd6443328a610c9e79df4cdd7573db5a6bf54aba589154a5b10b8c1b513d670",
+      "afterSHA256": "dd8c4041210b672ddf94aa5ed97e3dc9e06ede3d109598b49a0a8b74b57ae570"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "action": "use-portable-source-dependency-metadata",
+      "beforeSHA256": "2bd1b2065e485871159f0c6ee518356f24de76b89d63ffdc117f88dfac2722a2",
+      "afterSHA256": "7ed5255b77c5082ab58f414d36a0e2dbdc5ff542b5b6a3cb0ab95c0f5ae42b2c"
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "action": "use-portable-source-dependency-metadata",
+      "beforeSHA256": "c1dd715f7e0bc915e2ba35bbc6aa5b81b76fcde1db4662abc317edc01aff71dd",
+      "afterSHA256": "96713b2e2e80b4b7d2cf23fb26d7d9b55e4dd59f3b304b26f102ec1f99171370"
+    },
+    {
+      "path": "node_modules/.modules.yaml",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "4ff46af28bb2817e73726d444ee90a6b9fb2d63e2df137af7437f53c11894331"
+    },
+    {
+      "path": "node_modules/.pnpm-workspace-state-v1.json",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "acd3a4fa2c1971ffedd80f7908c0b812797fcac97fc98b440a9388275785b848"
+    },
+    {
+      "path": "node_modules/.pnpm/lock.yaml",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "2bd1b2065e485871159f0c6ee518356f24de76b89d63ffdc117f88dfac2722a2"
+    },
+    {
+      "path": "node_modules/.pnpm/sharp@0.35.5_@types+node@22.20.0/node_modules/sharp/node_modules/.bin/semver",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "a13056546b27faff3d4e729f2859257937e9252be1c45dd2a81a19dd764fb8de"
+    },
+    {
+      "path": "node_modules/.pnpm/sharp@0.35.5_@types+node@22.20.0/node_modules/sharp/node_modules/.bin/semver.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "cce27c6ffd1da558b9e7c4e5e9b8664bb9e5e2a702620e83f04f608cde6e02b9"
+    },
+    {
+      "path": "node_modules/.pnpm/sharp@0.35.5_@types+node@22.20.0/node_modules/sharp/node_modules/.bin/semver.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "69e876712c7ba7f4fa2e83bb3302b68543f226f414bed004d83255ef0e364c10"
+    },
+    {
+      "path": "node_modules/.pnpm/open@11.0.4/node_modules/open/node_modules/.bin/is-inside-container",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "b79b6fd785d8fe64904f0894567da84edd3ee04746c0c446b651a5fec4af2b7b"
+    },
+    {
+      "path": "node_modules/.pnpm/open@11.0.4/node_modules/open/node_modules/.bin/is-inside-container.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "7372b1535583b463bf91a9eec2fd79745661903133f714d241fc3c0b23a18e28"
+    },
+    {
+      "path": "node_modules/.pnpm/open@11.0.4/node_modules/open/node_modules/.bin/is-inside-container.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "f063263bd7af24a201a132f33a7816157f28270b16296a0d95bddf466deda8bb"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/anthropic-ai-sdk",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "53ab4ed097fc1e15f26db4956ca844b0b9385b4370b791f733ef11014c8ef550"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/anthropic-ai-sdk.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "ed82a91a4039cc45228e6cf0810f8ea66924d36ff66b777d86a9b914d3060e79"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/anthropic-ai-sdk.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "1106f169066355ed8146d4d61f622d2c2568a168297888d8eb38d40db7341cc5"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/is-docker",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "594f0379c6b82c9894160dc836a846c62ad4769897e64f60b24c362c75a432b7"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/is-docker.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "dda86d5ab849a976cabbdaa8e8e3e5f4badb8e88f56f868e599fdd1c7a64fa9b"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/is-docker.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "163f1926d5d5312d47fe86e98d047bd322394c169072ce338105ce9251564743"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/is-inside-container",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "60b6e97245891910953fa0da92d985d03237a27d674450c837a84cefcd804684"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/is-inside-container.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "881d2ee68308aae8ff4b7c38f9cf1067646a853bbdea5c3432dcaec385104bda"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/is-inside-container.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "2b12a7e71d2ae26ca83066b50eadbfb2a176a948c8773d2a30c9d1599a0a5d37"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/js-yaml",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "f716d8adf59b126342de7b5059c3e2230bb430323f772f69f09a1a1d2354e0cc"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/js-yaml.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "0fca068518f661d52550d26a59d7d9fedb2c25acf056f5949efe92dbe3426a26"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/js-yaml.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "22406c864690d61c8b4980db0d21d203dd3654466a76484f988f04c169296021"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/libreoffice-kit",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "f8c073deef8feb518705fe3d5dbd16167d389023a1ca75266a1df97331ada1fc"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/libreoffice-kit.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "dd54f9c48fface3885a4317d64d7906da8feef307b613db065f167d69b4e3f3d"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/libreoffice-kit.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "4c053b73c7cf846c142359dc992fc51dc7b54e5c81332679d1c93f3205bba940"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/node-which",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "4cbe26d9998acd06f7f3d1b8f4bd5d4fd72dcbbbeaaa9b692e08f2213f21f002"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/node-which.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "3dfc61aa2f84157c159957b0fe390bc54331767e7101313ff2a20d0e24cf1717"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/node-which.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "91aa5c09cb8b9f8d37bb7a28c3a607629fa89a5270d953c69482e6ae917799e8"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/pi-ai",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "3e996f675c016b029b7423b8daa1e576581910b17402c2cd3a03195ad22f6d34"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/pi-ai.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "f258aa7512d0c2011dfde5b32b007475c811fd1bf8e2128a034d60e9ac6a81f3"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/pi-ai.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "d567aae48172fa72971f8f85d0b4084f1360172558129242e657bc2dc5121251"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/semver",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "0a9b871e20df8bbe32b818a9a57d9c6df90bd2a1438959401d38f2eacbf001b2"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/semver.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "8f146bbcf426c9d9b75e9d53a5a334c8abe91a3a24afd3cfa31457427f5fa622"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/semver.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "61bd4d1b8da4e1773122ea38b7073d4ad611458ea04311b26a866f5bceca6be7"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/which-command",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "68ed6d537fb8318acf0c6614573041e810888ff7952cbefdcd74feb43ca9a49d"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/which-command.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "8b6b4efc9482a6bf60351214d3ff5189d30a5925dc390932fc39b2d75347e1c0"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/which-command.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "700bd10c14ef1d85b24e97bc09ec373d92060ef9f0f698ae4b30a71836e302ba"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/yaml",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "26427d9bb4479424d260606afe0aed612cb9b6f25dd755e783c02d5ecd200e19"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/yaml.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "5d0eed0d58abfe384ff305ecea5cf8fd36733cae7c535ad4abefb090dc3ad91c"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/yaml.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "21077116a8c12b4df7ede47031bf3167f0f8a9208043b65317a659557e0dc9d0"
+    },
+    {
+      "path": "node_modules/.pnpm/is-wsl@3.1.1/node_modules/is-wsl/node_modules/.bin/is-inside-container",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "b79b6fd785d8fe64904f0894567da84edd3ee04746c0c446b651a5fec4af2b7b"
+    },
+    {
+      "path": "node_modules/.pnpm/is-wsl@3.1.1/node_modules/is-wsl/node_modules/.bin/is-inside-container.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "7372b1535583b463bf91a9eec2fd79745661903133f714d241fc3c0b23a18e28"
+    },
+    {
+      "path": "node_modules/.pnpm/is-wsl@3.1.1/node_modules/is-wsl/node_modules/.bin/is-inside-container.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "f063263bd7af24a201a132f33a7816157f28270b16296a0d95bddf466deda8bb"
+    },
+    {
+      "path": "node_modules/.pnpm/is-inside-container@1.0.0/node_modules/is-inside-container/node_modules/.bin/is-docker",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "44d6202af2c9a764d6e533f4f3de89915af2367c9c20f8f8b270caf37046864b"
+    },
+    {
+      "path": "node_modules/.pnpm/is-inside-container@1.0.0/node_modules/is-inside-container/node_modules/.bin/is-docker.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "265647cd6d135d54f114ec5274f4d89cde2ecc60ddac8848a29a11711d7ec86b"
+    },
+    {
+      "path": "node_modules/.pnpm/is-inside-container@1.0.0/node_modules/is-inside-container/node_modules/.bin/is-docker.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "8e90cee4b38d4dbade6f71ec893ff82af39e752b515787a58e42e59f3d317619"
+    },
+    {
+      "path": "node_modules/.pnpm/execa@10.0.0/node_modules/execa/node_modules/.bin/which-command",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "dd92b3f8476c286039aad28808b283b6d9dfa2fa2aede4b88100bdbfde6fc001"
+    },
+    {
+      "path": "node_modules/.pnpm/execa@10.0.0/node_modules/execa/node_modules/.bin/which-command.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "a9baf8a504d7d5a41a549e7d2ebcce1a41cac8ae546e9192ed5ed2743ad79043"
+    },
+    {
+      "path": "node_modules/.pnpm/execa@10.0.0/node_modules/execa/node_modules/.bin/which-command.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "b46fba4e70b9bb83a9290a4073c477ed6796743f339feeab14a96c28b798fc6a"
+    },
+    {
+      "path": "node_modules/.pnpm/cross-spawn@7.0.6/node_modules/cross-spawn/node_modules/.bin/node-which",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "faf136009bf58c3cb8c5bca1332f89ee035d625f21bf8b34f2d9f7ea95ce90c3"
+    },
+    {
+      "path": "node_modules/.pnpm/cross-spawn@7.0.6/node_modules/cross-spawn/node_modules/.bin/node-which.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "59ee1a732a8120eec7a38a6da2d4ed9e129f64e8df9606670da6c4767adb8f64"
+    },
+    {
+      "path": "node_modules/.pnpm/cross-spawn@7.0.6/node_modules/cross-spawn/node_modules/.bin/node-which.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "2e8ee341b24498cb0207e25f6bc6a9697eb997b2b856ddb8b13a950efc77f398"
+    },
+    {
+      "path": "node_modules/.pnpm/@earendil-works+pi-ai@0.87._58ef59a78655dcbdc713b757de99e6ce/node_modules/@earendil-works/pi-ai/node_modules/.bin/anthropic-ai-sdk",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "2368813acdf25dfd361e2d93c57f0a69fd80d8ddbccb4963a64a8a775021bebb"
+    },
+    {
+      "path": "node_modules/.pnpm/@earendil-works+pi-ai@0.87._58ef59a78655dcbdc713b757de99e6ce/node_modules/@earendil-works/pi-ai/node_modules/.bin/anthropic-ai-sdk.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "2c025e3df2021da3a7bba5bf713eb41c398cff0c8f8911305bc6e9004b09266f"
+    },
+    {
+      "path": "node_modules/.pnpm/@earendil-works+pi-ai@0.87._58ef59a78655dcbdc713b757de99e6ce/node_modules/@earendil-works/pi-ai/node_modules/.bin/anthropic-ai-sdk.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "d5badb7d767a66b032aba2261bf181195390b9301cdd20f5406fb9885cbb1f90"
+    },
+    {
+      "path": "node_modules/.pnpm/@earendil-works+pi-ai@0.87._58ef59a78655dcbdc713b757de99e6ce/node_modules/@earendil-works/pi-ai/node_modules/.bin/pi-ai",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "08f9c41dac9235e68c85aebef1ddc08d51bd5cc35f702fdcf0fb6a7512abf1d8"
+    },
+    {
+      "path": "node_modules/.pnpm/@earendil-works+pi-ai@0.87._58ef59a78655dcbdc713b757de99e6ce/node_modules/@earendil-works/pi-ai/node_modules/.bin/pi-ai.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "cfeb0a4021fb35a1ca0e58fd342fb369d213b1ce63ed7c533e38a034174464fe"
+    },
+    {
+      "path": "node_modules/.pnpm/@earendil-works+pi-ai@0.87._58ef59a78655dcbdc713b757de99e6ce/node_modules/@earendil-works/pi-ai/node_modules/.bin/pi-ai.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "c54b2c41893235844ed7d579ab5d53cd210f0c06e4ac5fc72fbac5f0a264812b"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh@file++++D+_1bd49fbd85ced6081ef54827cf6074f4/node_modules/@deepseek-ai/dsh/node_modules/.bin/js-yaml",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "9a4d3e8641092a85370ab929481aba99c57459076296c9de5f5ff56ee5fa9b54"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh@file++++D+_1bd49fbd85ced6081ef54827cf6074f4/node_modules/@deepseek-ai/dsh/node_modules/.bin/js-yaml.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "5f222b855e5a6442dc26666e0417ac1c4d024a41551f9aaf26c0706591dba257"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh@file++++D+_1bd49fbd85ced6081ef54827cf6074f4/node_modules/@deepseek-ai/dsh/node_modules/.bin/js-yaml.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "d88d0c8c3cd7f31f320793b5c6ec0aaafc897e0552254c7503832740a7f59d45"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-skill-offi_7edaf2fb7e1ece7c64b87686c87b30c0/node_modules/@deepseek-ai/dsh-skill-office/node_modules/.bin/libreoffice-kit",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "2f830ede1afa83f99bc2d2efea9f597259f91b349203c6cf0ee7052e409f1feb"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-skill-offi_7edaf2fb7e1ece7c64b87686c87b30c0/node_modules/@deepseek-ai/dsh-skill-office/node_modules/.bin/libreoffice-kit.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "6f3bbf3b2e922727dc4203692aeb08fcab3d7e12d98b7568d0bc468230f7c6d4"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-skill-offi_7edaf2fb7e1ece7c64b87686c87b30c0/node_modules/@deepseek-ai/dsh-skill-office/node_modules/.bin/libreoffice-kit.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "dcc5a08bfd73f32b431f82f04c661523060f62582dbd3a37a1c6be072699e663"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-skill-offi_7edaf2fb7e1ece7c64b87686c87b30c0/node_modules/@deepseek-ai/dsh-skill-office/node_modules/.bin/yaml",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "6b30964fe7b47e06caa8e346bc1aee0aed0cf40e633a4b73d2ca74968be71d89"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-skill-offi_7edaf2fb7e1ece7c64b87686c87b30c0/node_modules/@deepseek-ai/dsh-skill-office/node_modules/.bin/yaml.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "618fd52cb1dd45e39970e5ed39f59a0a5b9e74eb3d82836e944a2ddfad26b4f0"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-skill-offi_7edaf2fb7e1ece7c64b87686c87b30c0/node_modules/@deepseek-ai/dsh-skill-office/node_modules/.bin/yaml.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "d5559b928ccbb4f1a5b0f962a846fdf37be45b5187c1883953cc09e818620c0b"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-skill-file_8767ea9925609fdcbce620305ee840a1/node_modules/@deepseek-ai/dsh-skill-filesystem/node_modules/.bin/yaml",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "6b30964fe7b47e06caa8e346bc1aee0aed0cf40e633a4b73d2ca74968be71d89"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-skill-file_8767ea9925609fdcbce620305ee840a1/node_modules/@deepseek-ai/dsh-skill-filesystem/node_modules/.bin/yaml.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "618fd52cb1dd45e39970e5ed39f59a0a5b9e74eb3d82836e944a2ddfad26b4f0"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-skill-file_8767ea9925609fdcbce620305ee840a1/node_modules/@deepseek-ai/dsh-skill-filesystem/node_modules/.bin/yaml.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "d5559b928ccbb4f1a5b0f962a846fdf37be45b5187c1883953cc09e818620c0b"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-settings@f_0f42a178297698e2480fdcd1c8598006/node_modules/@deepseek-ai/dsh-settings/node_modules/.bin/yaml",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "6b30964fe7b47e06caa8e346bc1aee0aed0cf40e633a4b73d2ca74968be71d89"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-settings@f_0f42a178297698e2480fdcd1c8598006/node_modules/@deepseek-ai/dsh-settings/node_modules/.bin/yaml.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "618fd52cb1dd45e39970e5ed39f59a0a5b9e74eb3d82836e944a2ddfad26b4f0"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-settings@f_0f42a178297698e2480fdcd1c8598006/node_modules/@deepseek-ai/dsh-settings/node_modules/.bin/yaml.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "d5559b928ccbb4f1a5b0f962a846fdf37be45b5187c1883953cc09e818620c0b"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-session-lo_1ae5c09de996e83f6515870cc1f69c6f/node_modules/@deepseek-ai/dsh-session-log-export/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "2f74956c985666b564610411bc2938df19ed83388b101ccf6358aa74f6fb1109",
+      "afterSHA256": "6347eba3a87e349400f532ec6574a205b705edb09169177a958866e939d2021c"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-sandbox-wi_e02e0ee536bb4bd45623f9aaf02d5102/node_modules/@deepseek-ai/dsh-sandbox-windows-acl/node_modules/.bin/yaml",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "6b30964fe7b47e06caa8e346bc1aee0aed0cf40e633a4b73d2ca74968be71d89"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-sandbox-wi_e02e0ee536bb4bd45623f9aaf02d5102/node_modules/@deepseek-ai/dsh-sandbox-windows-acl/node_modules/.bin/yaml.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "618fd52cb1dd45e39970e5ed39f59a0a5b9e74eb3d82836e944a2ddfad26b4f0"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-sandbox-wi_e02e0ee536bb4bd45623f9aaf02d5102/node_modules/@deepseek-ai/dsh-sandbox-windows-acl/node_modules/.bin/yaml.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "d5559b928ccbb4f1a5b0f962a846fdf37be45b5187c1883953cc09e818620c0b"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-plugin-man_5332929e0ee6c7d2b46abb4229a07560/node_modules/@deepseek-ai/dsh-plugin-manager/node_modules/.bin/yaml",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "6b30964fe7b47e06caa8e346bc1aee0aed0cf40e633a4b73d2ca74968be71d89"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-plugin-man_5332929e0ee6c7d2b46abb4229a07560/node_modules/@deepseek-ai/dsh-plugin-manager/node_modules/.bin/yaml.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "618fd52cb1dd45e39970e5ed39f59a0a5b9e74eb3d82836e944a2ddfad26b4f0"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-plugin-man_5332929e0ee6c7d2b46abb4229a07560/node_modules/@deepseek-ai/dsh-plugin-manager/node_modules/.bin/yaml.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "d5559b928ccbb4f1a5b0f962a846fdf37be45b5187c1883953cc09e818620c0b"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-office-to-_95d53ac4bae94e0c94424bea597baad3/node_modules/@deepseek-ai/dsh-office-to-pdf/node_modules/.bin/libreoffice-kit",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "2f830ede1afa83f99bc2d2efea9f597259f91b349203c6cf0ee7052e409f1feb"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-office-to-_95d53ac4bae94e0c94424bea597baad3/node_modules/@deepseek-ai/dsh-office-to-pdf/node_modules/.bin/libreoffice-kit.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "6f3bbf3b2e922727dc4203692aeb08fcab3d7e12d98b7568d0bc468230f7c6d4"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-office-to-_95d53ac4bae94e0c94424bea597baad3/node_modules/@deepseek-ai/dsh-office-to-pdf/node_modules/.bin/libreoffice-kit.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "dcc5a08bfd73f32b431f82f04c661523060f62582dbd3a37a1c6be072699e663"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-llm-pi-ai@_c0aa73ec4d8d218b3e50f134772b9268/node_modules/@deepseek-ai/dsh-llm-pi-ai/node_modules/.bin/pi-ai",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "9d7b84ebc8b9ef17a1aabb92dd0780e809a365c69c418c508917fcb0096e4e9e"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-llm-pi-ai@_c0aa73ec4d8d218b3e50f134772b9268/node_modules/@deepseek-ai/dsh-llm-pi-ai/node_modules/.bin/pi-ai.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "96c32f449d06f619b408d010360eaaffeb33628bb1a8b7bc727b42274429592a"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-llm-pi-ai@_c0aa73ec4d8d218b3e50f134772b9268/node_modules/@deepseek-ai/dsh-llm-pi-ai/node_modules/.bin/pi-ai.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "ef7e248cb984ceab71610511e53459f26bfbe55de6c004d725b8a68f043a47a5"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-experiment_8ac202580f3e750e07c7785316a9fb62/node_modules/@deepseek-ai/dsh-experimental-client-ui-agent-team/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "53b170b6150ce3e8011451b6c5bdbfd15bbf91377f4ced136994e46cc172ac82",
+      "afterSHA256": "da9956d43f9a7d6303e0669b02b206b85c2b6854b37192654417800928fd3c1c"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-experiment_7af3f0eebeda61b85d7dae88cab4e355/node_modules/@deepseek-ai/dsh-experimental-client-ui-voice-input/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "90145291466f3d1ee83d63609e81ef13c44a67341dd55be995b2e74079d778d5",
+      "afterSHA256": "d488444863950dd61911c2f9bb9deef27c8524d05fcbecc0333b6a25f793fae6"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-credential_40995ede3f93df5d56acc492f5b569c9/node_modules/@deepseek-ai/dsh-credentials-local/node_modules/.bin/yaml",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "6b30964fe7b47e06caa8e346bc1aee0aed0cf40e633a4b73d2ca74968be71d89"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-credential_40995ede3f93df5d56acc492f5b569c9/node_modules/@deepseek-ai/dsh-credentials-local/node_modules/.bin/yaml.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "618fd52cb1dd45e39970e5ed39f59a0a5b9e74eb3d82836e944a2ddfad26b4f0"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-credential_40995ede3f93df5d56acc492f5b569c9/node_modules/@deepseek-ai/dsh-credentials-local/node_modules/.bin/yaml.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "d5559b928ccbb4f1a5b0f962a846fdf37be45b5187c1883953cc09e818620c0b"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-config-edi_63c06d0bb1db6625a5183a12ec30ab5d/node_modules/@deepseek-ai/dsh-config-editor/node_modules/.bin/js-yaml",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "9a4d3e8641092a85370ab929481aba99c57459076296c9de5f5ff56ee5fa9b54"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-config-edi_63c06d0bb1db6625a5183a12ec30ab5d/node_modules/@deepseek-ai/dsh-config-editor/node_modules/.bin/js-yaml.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "5f222b855e5a6442dc26666e0417ac1c4d024a41551f9aaf26c0706591dba257"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-config-edi_63c06d0bb1db6625a5183a12ec30ab5d/node_modules/@deepseek-ai/dsh-config-editor/node_modules/.bin/js-yaml.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "d88d0c8c3cd7f31f320793b5c6ec0aaafc897e0552254c7503832740a7f59d45"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-config-edi_63c06d0bb1db6625a5183a12ec30ab5d/node_modules/@deepseek-ai/dsh-config-editor/node_modules/.bin/yaml",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "6b30964fe7b47e06caa8e346bc1aee0aed0cf40e633a4b73d2ca74968be71d89"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-config-edi_63c06d0bb1db6625a5183a12ec30ab5d/node_modules/@deepseek-ai/dsh-config-editor/node_modules/.bin/yaml.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "618fd52cb1dd45e39970e5ed39f59a0a5b9e74eb3d82836e944a2ddfad26b4f0"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-config-edi_63c06d0bb1db6625a5183a12ec30ab5d/node_modules/@deepseek-ai/dsh-config-editor/node_modules/.bin/yaml.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "d5559b928ccbb4f1a5b0f962a846fdf37be45b5187c1883953cc09e818620c0b"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_f64c91fab4fc3aaebbfdadf971407276/node_modules/@deepseek-ai/dsh-client-ui-settings-session-log/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "fe2cba8644ef0628753baae3b721c591bcd2a141ab28d383e5531c25eaae942b",
+      "afterSHA256": "645873254e9aebdfc6bdb127814e86e98b832b5b81ba09529c082bf99b826cd0"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_f225ec640597ed6a370451ee3beb734d/node_modules/@deepseek-ai/dsh-client-ui-deliverables/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "1e9f8d6b2c28c9b1b9180f1ad624d78d41bf3dced7a18331c8f701e264fa22b5",
+      "afterSHA256": "47779045e972498f6888c0da35a4d574e4b1ca61c9418d4293673937e7131a28"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_f149bec200a5eb1cb51d18d189d66924/node_modules/@deepseek-ai/dsh-client-ui-attachment/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "572e408180256e80dfe82e0a1c19e2fbe2c596fb70bd3663125a6b13f8306583",
+      "afterSHA256": "a3ad970f7856e18f4377a6b510406c751f14adf10459c2fcaddcd386b5c77c2d"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_eca2d774d88f7bd4a0afe79e12b156a7/node_modules/@deepseek-ai/dsh-client-ui-settings-subagent/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "5bdc05d0beafa2c3291fc95ae05760ef7aee275e227987c03d7b361ff5eeada7",
+      "afterSHA256": "a8dab97c065a25d1ec59309f2f35dfe5ed32e8fb72dc9fff8920216abd56730d"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_e2f339d12a380251bbf3e133212086cf/node_modules/@deepseek-ai/dsh-client-ui-plugin-manager/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "39caebf4f5d4cad9842e4669c602016b57eac01b7f4c87d42f82bdd7e7a0e2c6",
+      "afterSHA256": "c3c08bacaab02c4fc06eb73214d323d17bda2bba1a0a09f07147d686c163b79c"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_e29926341202f0998e6b8dedfbe29c43/node_modules/@deepseek-ai/dsh-client-ui-approval/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "964a1d761793ccb40363d5796ee1986f69e3aeada0950ac738df5753d8d9a6ba",
+      "afterSHA256": "eac998165b641c92fb4789b6e771c6c91f2da883cca7286395420c7e5d9f12e0"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_cb18a444a0adcd34f1859fe42c119c3d/node_modules/@deepseek-ai/dsh-client-ui-workspace/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "4d1fbefba6ca8425e8ae65ec6b44f6fae3fc210596972f15c6e9edbd33e018d6",
+      "afterSHA256": "7b63cdcd0e567e78655ca6ea7792df6805ce6eb591f60da74c26de02881935ba"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_c44f8d25f7e1836657943b01a87b872c/node_modules/@deepseek-ai/dsh-client-ui-workflow-run/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "9eb90eebb241b08d2272490c1bc31448110d604d67f1d4bbbacded4c0f4d4fda",
+      "afterSHA256": "9583824d88647e512ba94848a8067d752e1390c5bf693f29f125d1ce62b3dd4d"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_c01c8136bba9075be5eec55e5502606c/node_modules/@deepseek-ai/dsh-client-ui-settings-plugin-inventory/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "0f2a1cc7bd9630020af19dc0a2212156a3a48c49225e8c89afaaae3789a1b83d",
+      "afterSHA256": "dd0af5c965240c60765df45d771306c962628628d531557a500753b0fb1e50c0"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_ba34195cbfa950268bccc1989772efbf/node_modules/@deepseek-ai/dsh-client-ui-chat/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "a5266e040c4123d23e34ae14efffe79f90e0a8a73a89dbae184808d9b2152dd0",
+      "afterSHA256": "b6d0e0becf26c97f6b5ec2cd3b9b25d28b01a8eda4074dca2bac2c0b308bc287"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_b6c18325cc010e3aff072c72f7076f18/node_modules/@deepseek-ai/dsh-client-ui-trajectory/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "6b41e8712e8b8f1de2ae98d1943be25c93fc7d8815ec2a18b22d89230d48dc36",
+      "afterSHA256": "c9251c64ebb1381b6f1bca1b960a4eb9182a24d49d6e8175c0b64df5336b8a7e"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_b5d72b8121ccff8d21a5a31763c2a4f1/node_modules/@deepseek-ai/dsh-client-ui-cordis/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "7500e9734062ee8321dac518afa027c15b549c764c0e58debed0497941038f66",
+      "afterSHA256": "fee9b3f0123cb830c33d4b7831b4a1c2f808c8a901a26ea30310605d440bb621"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_b4012e882389bdbbd800314d58914126/node_modules/@deepseek-ai/dsh-client-ui-settings-account/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "37f602ed87e64223f8dde5ec25c809e3d4a089d9e78a298b43b6c385b8a914a0",
+      "afterSHA256": "035575e2677f6b24fdba8e6605741f78a83bfdd19b4a6c417bfa3d418d19eeba"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_ae3f3b7090a8af2cff26761fdab1722d/node_modules/@deepseek-ai/dsh-client-ui-input-trigger/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "53edee8d6595df9b7922a1f58bd6b8322f603867572566206989def3c6e1d37d",
+      "afterSHA256": "c741211f0fee46143761fea789a0435f3a48de2ab1a7c149d48b5895d713142e"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_a058833c7bef14963edfecba6a039ff4/node_modules/@deepseek-ai/dsh-client-ui-settings-plugins/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "4cadd79713fa1c41a8355f653dbb0fc2aa35c2698e41409a630e40207abfb3ca",
+      "afterSHA256": "34ed72ca32ea8c96a0c486c69b6b7c1ea6102a603e655dd5a75d95c5d7b95b8d"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_9803b18369d872a8ac9dfd9219a1adad/node_modules/@deepseek-ai/dsh-client-ui-message-feedback/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "da66c0c28595778ceb4a5093c1363a306b22e9f6a37ad8edf0462c7429e5fbcb",
+      "afterSHA256": "dd39338e61d68cf104a0a81c3064235dfe919e5b253d7e4198d15b9c8c24d040"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_83e2ae4a741583e79537e63b56d8dcdb/node_modules/@deepseek-ai/dsh-client-ui-user-questions/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "1ab251b252ab6bff8e1c83c15b49eac6eb6d2022d1fda3ea9bb4fed8e1376046",
+      "afterSHA256": "05a5826f84d3af392875c5e24982e8367476dd2ba7ec83a8dde66dbd2ace3797"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_82d60214e1a5b4d495a2fa8803bdfb53/node_modules/@deepseek-ai/dsh-client-ui-settings-models/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "5d6763a18c9443d87070413c7e28439327551998931a0d92816862ae36cec67b",
+      "afterSHA256": "963cf2230def648104e45da3fae915b3ae6b2bfff3df2d11dd40dd8087bf2171"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_811004cefdbf0aab1e402870ddbb0c70/node_modules/@deepseek-ai/dsh-client-ui-model-selection/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "c577568cfb86cefb1dcc32a4609fcf4cdd40c007f2b972a2c09e7a4d3d1d13fc",
+      "afterSHA256": "c0076b83715e7740ad17a5fb7babfd67f2dd1b44ce97aa259864d407556fafbf"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_7d9b7e57c6aa209954eff917889a3855/node_modules/@deepseek-ai/dsh-client-ui-tool/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "a33420072dccc53939452c93b19bf990a796c5388ae70f62f0b4bdcc91078a0b",
+      "afterSHA256": "cf5e6382b4812d5bfdaff0be4ac7cd9bc9bf608d080ab482d57823dd5051adce"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_7b7a236f86556b4cd09c162a3a2cdef6/node_modules/@deepseek-ai/dsh-client-ui-layout/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "dfa909d8721d9393db98e77e272c0d456da9419304997c191f74f4381b1f0afa",
+      "afterSHA256": "72fa3f641158f8e6a229afa861d5b66aa059e23982d802c5eed0442fe4a67afa"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_793bb2c9e8eed865af4d595339dd7424/node_modules/@deepseek-ai/dsh-client-ui-permission-presets/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "7847941c5a7e509712594e4170603a0ae145fceca3fcba8f05822d3adc06fa57",
+      "afterSHA256": "333afc77341e3275dffc2b25de11a2bc464e6759c6db884355dba5683ebb56f6"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_755aae61dc5537c895f44580f74c0628/node_modules/@deepseek-ai/dsh-client-ui-goal/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "4ae3fbbf0d0b2230e94a427277af4674b2f7009ad38d3a3a3293ce4ae17ab8fb",
+      "afterSHA256": "c1b351ec00b0f876aa609b4287dd808c4e7d86c4ad27831c292ba8ae3c0c0a7d"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_73395c77e0f7b70f79ad569a78d0b5bb/node_modules/@deepseek-ai/dsh-client-ui-shortcuts/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "236df61c1dd6b06e2bbc3e01b8433e1fc436625e30a847442e60adb8a71f7d03",
+      "afterSHA256": "fac847ddfccdfebed4c78f985e6c287e40bf1991a935de5a1723377d74e80a5b"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_6c89e06918e06b2428e1154242ebd1b9/node_modules/@deepseek-ai/dsh-client-ui-plan/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "5f33df03976c9b032202e8a182603e34218e6f826758de8d8de523b918f8b827",
+      "afterSHA256": "314ad9903adf2c08b29e1ec51fada36e75d883210728dc4ab7c29eb2d132d05e"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_679525690769b2e5283a3463d45387e1/node_modules/@deepseek-ai/dsh-client-ui-sidebar-documentpreview/lib/client.excel.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "ed6b1e93811b0496289840fd277694a53550956d3acc6a5591f6537b5e099ddd",
+      "afterSHA256": "fae3e9f33d50024b892da3d4b412c277cec30e913b3ab128813d2751b93ed56a"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_679525690769b2e5283a3463d45387e1/node_modules/@deepseek-ai/dsh-client-ui-sidebar-documentpreview/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "9eee7f7e4b79b027f2eb1d5538d7430accb3e4c4a82d997d7b623d197b86cfcc",
+      "afterSHA256": "b51d61b872a80c096080a2ec00845bbbc6288752ad6d58959cacc8d1cb2fd55a"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_679525690769b2e5283a3463d45387e1/node_modules/@deepseek-ai/dsh-client-ui-sidebar-documentpreview/lib/client.pdf.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "8cb3a3271c9fc508a7ed3452daf75af138d8694fd4b9c5245878c9cd8cb58884",
+      "afterSHA256": "9d1d768a343a0e13672b41d98e04236ebba28823faa369aed5b438bc2bf25185"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_6599b500365eac3df718378182dfeee9/node_modules/@deepseek-ai/dsh-client-ui-commands/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "4edec99f818f733a9fa5aa71074e7ceb7f9ca8d9e8d3654eec612806cf6a37ba",
+      "afterSHA256": "bcacdcf84789ccb72af9050315cad531c9117912c031664afe174c31bb9132d8"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_5fa460ca7f46ebe2565e5574d4ec1ae6/node_modules/@deepseek-ai/dsh-client-ui-sidebar-terminal/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "4fa03d25c771ae95fece8e5534bca85a470bdd3707ca104e3c54c3719e2ec4bf",
+      "afterSHA256": "aa8be67e9a1e177d46effd89f6243279386c54115ed4277d4702ad90116d36fc"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_5fa460ca7f46ebe2565e5574d4ec1ae6/node_modules/@deepseek-ai/dsh-client-ui-sidebar-terminal/lib/client.terminal.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "c2e98dd902ddb0a5d56c9efb121afed6ab02253a96770494f7529c358504bbc5",
+      "afterSHA256": "31a52f5c1d8550fde2833583099541dbf5185fceffb7ad195cfa46a99ad65fa4"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_56c94dce3360ec9fd3471f19a9e93783/node_modules/@deepseek-ai/dsh-client-ui-agent-preset/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "976311b3a6c658846c0603e1367611ac50dbe2145badf3c535d2168a777423a3",
+      "afterSHA256": "57b14f4bb3217a1539307eff4875f06472f208b273c2b42c5469e851ed83503a"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_54d406a697998286dcac9e9268faec1f/node_modules/@deepseek-ai/dsh-client-ui-schedule/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "a61a1200ce3f5da8012384b46e0c0f654cc24776e95fceb09265d703d127168f",
+      "afterSHA256": "8800684ca380c21ef4b78a2335fd96f4e44ff072c800950b4b17b66700cb9b05"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_42a53bb13caf5e47dc7feef5fd238afa/node_modules/@deepseek-ai/dsh-client-ui-settings-general/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "5418ae23d3bcf5dd3a5554de13e51b21d53bfb1f1b641321b9b064e098026e22",
+      "afterSHA256": "509afddf346ec8113afe9540600ef0d7450cad2ddea070dd05747b7e5274b42f"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_42411d91d072d5183cce4106b42d402e/node_modules/@deepseek-ai/dsh-client-ui-jobs/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "ab4f0780e616b1df3dd8873658a869df970d959bc9d08ddf33369e217c7e9dff",
+      "afterSHA256": "14c87b175983dc242ad4cb53dbb9a780bf2cefca21db157bc33852facc7cfc7a"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_400c5197a16d24fa7e2cd56ecf032d9c/node_modules/@deepseek-ai/dsh-client-ui-sidebar-files/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "026d06b6856c2c0d78553ce1d0618a38d4a20e2ab68c6e9b9c3e317f9fcbc7d6",
+      "afterSHA256": "5a357baca4d981ad32c4c6751f8c5c2677d38fa78533e3c3f709178bed744a04"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_3e44cf81ddbfb7bd77ac1dc0e8c65213/node_modules/@deepseek-ai/dsh-client-ui-subagent/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "34eea4f2bc4961f3f8d3cf68fd346a4cf755f1d3e27fc73613ed7224f83f462e",
+      "afterSHA256": "8fe097a2c57735bac7f94c12e8cde0f578d51aeff9f6809a68ed4f8bf1954992"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_39e61ecbd333e2a6c28fe6c8d1fdb8a4/node_modules/@deepseek-ai/dsh-client-ui-directory-picker-browse/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "897aee298228cf5ac2f7cd80f5d22d74d3e45cc481c9890343148a31179c2f47",
+      "afterSHA256": "f2178cd15d2a3622bec41f8cdf64f49c850364a1eb245f1b8da0f87847992027"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_227d211c662e8dfc2366111a6a630f3b/node_modules/@deepseek-ai/dsh-client-ui-sidebar-browser/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "37f0fe42f683811eb9bdf66b0c06c5818585fb17284dfe9cce6a5f689f3de502",
+      "afterSHA256": "ca3ce940e22bd11acacfc9fca9ae3d67a59b6f3b6d56838faf1cc911c73a9fe2"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_21597f1f38ffb6488a76a0d0fc6087b1/node_modules/@deepseek-ai/dsh-client-ui-open-in-app/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "335cfa9cbfbcd39270c7854446fc18ff3f4477f1ed7e1558dd007b7e5d58f7d5",
+      "afterSHA256": "85366660f9424c9e357228e125a3877f8e871921d501017b0cd4e39c0923519d"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_1bf303019e92189b86e3a13a706a732b/node_modules/@deepseek-ai/dsh-client-ui-conversation/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "9cc34d253cbc6bf44a046a8032deda18e3a6d60077b520a5f642a5011b27a500",
+      "afterSHA256": "3f59243b47099f152f1e01c092875cff57df9424cdac13e589ee463c056bcdbd"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_1a2e36e9d0413cc0422e8ef7c0c5dc46/node_modules/@deepseek-ai/dsh-client-ui-theme/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "faf136554a17c92e01e1de73f042dd0449ae6303bfdefa650d332b85b9f28d57",
+      "afterSHA256": "078d3b2e091121807dfb783fd77ef2d82b4a7f8ca34832839e6fd66a87633915"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_17c09073b673fcbfb653e2065c6c8144/node_modules/@deepseek-ai/dsh-client-ui-sidebar/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "55d239f9b470cb01fdb0c5c2856d931c5e115f98b5f64254e2e6577ce9b655d5",
+      "afterSHA256": "d9bb12831f115a7d2a4bc031fd367428fd0b8e3483a0488ebbb4b87ce03940db"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_03df174ae82a0af33bbe64d6ab0527d5/node_modules/@deepseek-ai/dsh-client-ui-skill/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "ab38c8c915cbe87b91c8f5e8eb2a8164720da6a98441a24ff1fb9f1bfd82cf93",
+      "afterSHA256": "3e31a8e3e5827978f8203fbec710899ff26859d51e829834c6896a59bce18eb1"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-ui-_0178154903228561f5a65ff6f67e79e7/node_modules/@deepseek-ai/dsh-client-ui-sidebar-right/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "fdfa2fc29bd12c1cf6f23e689e545c82d1c0bb168935eb682d22fbbf51bd93ea",
+      "afterSHA256": "40a961ccb288ae0678978f52f1b24e52549bd03fb66e321f41f3888e403062e3"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-client-loc_3f37e661dbd077806c8983780303d0a3/node_modules/@deepseek-ai/dsh-client-locale/lib/client.js",
+      "action": "remove-absolute-build-path-from-region-comments",
+      "beforeSHA256": "ca3484cf8925c944e3975f157b581c9c252f40b4d2357b8d413e1423e03a08c8",
+      "afterSHA256": "a2363b42495b69629c45591558d53aa28285f1e3528e214001a81926009c2a8c"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-app-boot@f_b286313206ab9a101a7e8e4e2085d1c2/node_modules/@deepseek-ai/dsh-app-boot/node_modules/.bin/js-yaml",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "9a4d3e8641092a85370ab929481aba99c57459076296c9de5f5ff56ee5fa9b54"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-app-boot@f_b286313206ab9a101a7e8e4e2085d1c2/node_modules/@deepseek-ai/dsh-app-boot/node_modules/.bin/js-yaml.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "5f222b855e5a6442dc26666e0417ac1c4d024a41551f9aaf26c0706591dba257"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-app-boot@f_b286313206ab9a101a7e8e4e2085d1c2/node_modules/@deepseek-ai/dsh-app-boot/node_modules/.bin/js-yaml.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "d88d0c8c3cd7f31f320793b5c6ec0aaafc897e0552254c7503832740a7f59d45"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-app-boot@f_b286313206ab9a101a7e8e4e2085d1c2/node_modules/@deepseek-ai/dsh-app-boot/node_modules/.bin/semver",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "8cc6089ec7d97168c1c81b9a0b1509f5ef545bc704bae76df481f19d7dcd4e41"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-app-boot@f_b286313206ab9a101a7e8e4e2085d1c2/node_modules/@deepseek-ai/dsh-app-boot/node_modules/.bin/semver.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "c518dbc1aa30df53fce8569afee36ac3f318953f999436f192b69341be879f30"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-app-boot@f_b286313206ab9a101a7e8e4e2085d1c2/node_modules/@deepseek-ai/dsh-app-boot/node_modules/.bin/semver.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "81f9b2ace16a0fe937bdeb7ac3012dcf337e51b54b79a22059051a4e8bfc68ab"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-agent-pres_3d179a6428da59463e785a5e8c828571/node_modules/@deepseek-ai/dsh-agent-preset-registry/node_modules/.bin/js-yaml",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "9a4d3e8641092a85370ab929481aba99c57459076296c9de5f5ff56ee5fa9b54"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-agent-pres_3d179a6428da59463e785a5e8c828571/node_modules/@deepseek-ai/dsh-agent-preset-registry/node_modules/.bin/js-yaml.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "5f222b855e5a6442dc26666e0417ac1c4d024a41551f9aaf26c0706591dba257"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+dsh-agent-pres_3d179a6428da59463e785a5e8c828571/node_modules/@deepseek-ai/dsh-agent-preset-registry/node_modules/.bin/js-yaml.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "d88d0c8c3cd7f31f320793b5c6ec0aaafc897e0552254c7503832740a7f59d45"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+cordis-plugin-_7953f9f672129ee1c3d983436311c183/node_modules/@deepseek-ai/cordis-plugin-include/node_modules/.bin/js-yaml",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "9a4d3e8641092a85370ab929481aba99c57459076296c9de5f5ff56ee5fa9b54"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+cordis-plugin-_7953f9f672129ee1c3d983436311c183/node_modules/@deepseek-ai/cordis-plugin-include/node_modules/.bin/js-yaml.CMD",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "5f222b855e5a6442dc26666e0417ac1c4d024a41551f9aaf26c0706591dba257"
+    },
+    {
+      "path": "node_modules/.pnpm/@deepseek-ai+cordis-plugin-_7953f9f672129ee1c3d983436311c183/node_modules/@deepseek-ai/cordis-plugin-include/node_modules/.bin/js-yaml.ps1",
+      "action": "omit-build-only-metadata-or-command-shim",
+      "beforeSHA256": "d88d0c8c3cd7f31f320793b5c6ec0aaafc897e0552254c7503832740a7f59d45"
+    }
+  ],
+  "rule": "Only command shims/build metadata are omitted. JS changes touch region comments only. Runtime behavior is retested on the resulting archive."
+}

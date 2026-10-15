@@ -1,0 +1,18 @@
+diff --git a/index.js b/index.js
+--- a/index.js
++++ b/index.js
+@@ -395,6 +395,14 @@
+     evaluateRequest(req) {
+         this._assertRequestHasHeaders(req);
+ 
++        // Security-zeroed entries must not be revived by a request max-stale directive.
++        if (!this.storable() || this._rescc['no-cache'] ||
++            (this._isShared && (this._rescc['proxy-revalidate'] ||
++                (this._resHeaders['set-cookie'] &&
++                    !this._rescc.public && !this._rescc.immutable)))) {
++            return this._evaluateRequestMissResult(req);
++        }
++
+         // In all circumstances, a cache MUST NOT ignore the must-revalidate directive
+         if (this._rescc['must-revalidate']) {
+             return this._evaluateRequestMissResult(req);

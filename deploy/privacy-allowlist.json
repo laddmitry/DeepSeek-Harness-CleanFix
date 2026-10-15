@@ -1,0 +1,14 @@
+[
+  {
+    "location": "asset:Runtime/node_modules/.pnpm/jose@6.2.3/node_modules/jose/dist/webapi/key/import.js",
+    "rule": "private-key-material",
+    "valueSHA256": "3021d90eb9437b2d8f30e8363695c4418b5e5f1870801b5c317e9398ee0f572d",
+    "reason": "Literal PEM header checked by importPKCS8; no private key body. Reviewed source context."
+  },
+  {
+    "location": "asset:Runtime/node_modules/.pnpm/@deepseek-ai+libreoffice-kit-win32-x64@0.1.1/node_modules/@deepseek-ai/libreoffice-kit-win32-x64/bin/libreoffice-kit.exe",
+    "rule": "private-key-material",
+    "valueSHA256": "3021d90eb9437b2d8f30e8363695c4418b5e5f1870801b5c317e9398ee0f572d",
+    "reason": "PEM parser header constant embedded in the executable; no following PEM line break or key body. A separate full-private-key-block rule remains active."
+  }
+]

@@ -1,0 +1,3 @@
+# Preserve exact published bytes and keep offline payload in ordinary Git.
+* -text -filter -working-tree-encoding
+payload/** binary -filter

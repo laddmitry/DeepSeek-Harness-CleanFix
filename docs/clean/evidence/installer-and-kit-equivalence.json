@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "guestVerifiedAllSixAssets": true,
+  "timeoutOnlyUpdateVerifiedInGuest": true,
+  "files": [
+    {
+      "path": "INSTALL.cmd",
+      "identicalToInstalledMedia": true,
+      "SHA256": "6c660995089991931016a7c290053d61eb5c7a7db5b4d791774a72745bf424a8"
+    },
+    {
+      "path": "deploy/Install-Windows.ps1",
+      "identicalToInstalledMedia": true,
+      "SHA256": "274be47d61b0b8a126d3d7f822aca961565a587ebed752eeaebaee4a26904673"
+    },
+    {
+      "path": "deploy/Read-Payload.ps1",
+      "identicalToInstalledMedia": true,
+      "SHA256": "e278d36ccd6572c369c419778053675b576f93b9154e5addfe6042d92ba36e01"
+    },
+    {
+      "path": "deploy/Start-Install.ps1",
+      "identicalToInstalledMedia": true,
+      "SHA256": "f0861f04706892ea0adc253ee8be0e6d324be7f472eb14f71b748278edef4029"
+    },
+    {
+      "path": "kit/Configure-Keyboard.ps1",
+      "identicalToInstalledMedia": true,
+      "SHA256": "6928505e7d74eb8c5bafb1989a79bf88591ada342c42a7a979b928ce38f7f34e"
+    },
+    {
+      "path": "kit/Controller-Rights.ps1",
+      "identicalToInstalledMedia": true,
+      "SHA256": "73821c7270889628e8792317e3cfb08d40d01bdfd9ee77b2d3f166739a7b1eff"
+    },
+    {
+      "path": "kit/Freeze-WindowsPermissions.ps1",
+      "identicalToInstalledMedia": true,
+      "SHA256": "f0370d1d08144c4f1963a486a9b2458cedbc268dc59d391df111fef4ae2a8e57"
+    },
+    {
+      "path": "kit/Initialize-WindowsWorker.ps1",
+      "identicalToInstalledMedia": true,
+      "SHA256": "f22eb3537b56190a37a88606dcebe9ff8b69c54ecbdaf61b8fc95ec45f6c7444"
+    },
+    {
+      "path": "kit/Run-Harness.ps1",
+      "identicalToInstalledMedia": true,
+      "SHA256": "11b6829c190715b57b7157c538889702c28b8613794e26cdd9a29ee315a1009e"
+    },
+    {
+      "path": "kit/Run-Verification.ps1",
+      "identicalToInstalledMedia": true,
+      "SHA256": "b52e8701dd0ea10c132d9848055316d6a97e4e651b5ac718b73ca2c0186d1ee5"
+    },
+    {
+      "path": "kit/Setup-User.ps1",
+      "identicalToInstalledMedia": true,
+      "SHA256": "78baae4e9cdb220eb24343ed5ee8cd5fb90b005c92b1ed09af09f38cf8c6464a"
+    },
+    {
+      "path": "kit/Start-LocalHarness.ps1",
+      "identicalToInstalledMedia": true,
+      "SHA256": "215731d54e3f451a0aac4d390dff7736315f77ee4a2cfe9bcdfb6dd8494360fe"
+    },
+    {
+      "path": "kit/Start-LocalModel.ps1",
+      "identicalToInstalledMedia": true,
+      "SHA256": "e7593c1fb6255aed362bc5fb8d9b92804e4b11a9521ad3c25f81c5ae3c740c70"
+    },
+    {
+      "path": "kit/Verify-Publication.py",
+      "identicalToInstalledMedia": true,
+      "SHA256": "1f17914682ca629083787d0a983bcaabef2b3f27bce907f2d7628a715254e956"
+    },
+    {
+      "path": "kit/verification/AcpRuntimeSmoke.mjs",
+      "identicalToInstalledMedia": true,
+      "SHA256": "7f28b0e965f93639eb4bf827628518332fa3a9d9cb9664de30a15dd9ec89a2ed"
+    },
+    {
+      "path": "kit/verification/FullRuntimeSmoke.mjs",
+      "identicalToInstalledMedia": true,
+      "SHA256": "7742ed839a8221bcc32e9ba548b14df1c8efec5f6d1362309bf1056fd3e45eef"
+    },
+    {
+      "path": "kit/verification/HeadlessRuntimeSmoke.mjs",
+      "identicalToInstalledMedia": true,
+      "SHA256": "db71972c834d33afad258cf1a59269ffd5d43222cfb2b83eaa7524c3a9a9afbb"
+    },
+    {
+      "path": "kit/verification/RealModelTools.mjs",
+      "identicalToInstalledMedia": true,
+      "SHA256": "1dac30be2066d159f0227a943e8ec4a6c2bd94e64724770e88a380648372da32"
+    },
+    {
+      "path": "kit/verification/SubagentRuntimeSmoke.mjs",
+      "identicalToInstalledMedia": true,
+      "SHA256": "ff5066d839c3eec9ddba681369e4fe7021cf7b26c8754f7558a232aee55edf4b"
+    },
+    {
+      "path": "kit/verification/WebRuntimeSmoke.mjs",
+      "identicalToInstalledMedia": true,
+      "SHA256": "daab2f5bf15008854a7642f92c3baf5971fec20e9888b59995c5f05f29f1c56f"
+    }
+  ]
+}

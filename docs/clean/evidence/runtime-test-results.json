@@ -1,0 +1,84 @@
+{
+  "dateLocal": "2026-10-16",
+  "timezone": "Europe/Moscow",
+  "version": "clean-win11-20261015",
+  "environment": {
+    "os": "Windows 11 Pro x64",
+    "build": "26300.9457",
+    "freshInstallationFromISO": true,
+    "vCPU": 2,
+    "memoryMiB": 6144,
+    "diskGiB": 80,
+    "networkAdaptersEnabled": false
+  },
+  "installation": {
+    "completed": true,
+    "runtimeFiles": 27348,
+    "runtimeLinks": 2969,
+    "allSixPayloadAssetsVerifiedInGuest": true,
+    "verificationTimeoutOnlyUpdateAppliedAfterInitialInstallation": true,
+    "all17InstalledKitFilesVerifiedAfterUpdate": true
+  },
+  "user": {
+    "ordinaryController": true,
+    "englishAndRussianInputConfigured": true,
+    "aclCanaryChecksPassed": 13
+  },
+  "passed": true,
+  "tests": [
+    {
+      "test": "FullRuntimeSmoke",
+      "exitCode": 0,
+      "timedOut": false,
+      "durationSeconds": 21.217,
+      "passed": true
+    },
+    {
+      "test": "HeadlessRuntimeSmoke",
+      "exitCode": 0,
+      "timedOut": false,
+      "durationSeconds": 15.347,
+      "passed": true
+    },
+    {
+      "test": "AcpRuntimeSmoke",
+      "exitCode": 0,
+      "timedOut": false,
+      "durationSeconds": 9.035,
+      "passed": true
+    },
+    {
+      "test": "SubagentRuntimeSmoke",
+      "exitCode": 0,
+      "timedOut": false,
+      "durationSeconds": 11.416,
+      "passed": true
+    },
+    {
+      "test": "WebRuntimeSmoke",
+      "exitCode": 0,
+      "timedOut": false,
+      "durationSeconds": 23.042,
+      "passed": true
+    },
+    {
+      "test": "RealModelTools",
+      "exitCode": 0,
+      "timedOut": false,
+      "durationSeconds": 56.606,
+      "passed": true
+    }
+  ],
+  "initialRun": {
+    "passedTests": 5,
+    "failedTests": 1,
+    "failure": "RealModelTools: 180 second activity limit exceeded. First Ollama HTTP 200 in approximately 130 seconds; generation approximately 2.85 tokens/second."
+  },
+  "finalBudgets": {
+    "realModelActivitySeconds": 600,
+    "realModelProcessSeconds": 720,
+    "otherProcessSeconds": 240
+  },
+  "modelRetest": "The same Ollama server had handled the initial attempt. This is a functional retest; it does not establish a cold-start performance guarantee.",
+  "scope": "Five deterministic local-API runtime scenarios and one actual Ollama model scenario. Actual file and write/read tool-result assertions passed. Not a complete sandbox, source-suite or browser-UI audit."
+}

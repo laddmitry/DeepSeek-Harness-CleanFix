@@ -1,0 +1,7 @@
+{
+  "version": "clean-win11-20261015",
+  "platform": "Windows 11 Pro x64",
+  "profiles": ["web", "headless", "sdk", "acp"],
+  "defaultModel": "qwen3:0.6b",
+  "defaultModelEndpoint": "http://127.0.0.1:11434/v1"
+}
